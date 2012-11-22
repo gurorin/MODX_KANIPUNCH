@@ -247,7 +247,6 @@
 	/* Mobile Only */
 	@media only screen and (max-width: 767px) {
 		
-		header #site-title.graphic a {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/asset/images/logo.gif",sizingMethod='scale');background-size:contain!important;-pie-background:contain!important;width: 168px!important;}/*width: 260px!important;*/
 		header div.header_extras {left: 10px; top: -10px;font-size: 0.8em;}
 		header #site-title.graphic a {margin-left: 10px;}
 		header .header_inquiry {display: none;}
@@ -326,7 +325,6 @@
 	/* Mobile Landscape Only */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		
-		header #site-title.graphic a {filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/asset/images/logo.gif",sizingMethod='scale');background-size:contain!important;-pie-background:contain!important;width: 168px!important;}/*width: 260px!important;*/
 		header div.header_extras {left: 10px; top: -10px;font-size: 0.8em;}
 		header #site-title.graphic a {margin-left: 10px;}
 		header .header_inquiry {display: none;}

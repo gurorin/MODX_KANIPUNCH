@@ -37,7 +37,7 @@ jQuery(document).ready(function() {
 	
 	//PIE.js for IE7-9
 	if (window.PIE) {
-		$('#wrap, .icon_img, .icon_label div, #site_info, #sns_icon li a, .tweet_list li, nav ul, nav ul li, nav ul li a, nav ul.children, nav ul.children li a, .inquiry_banner, .inquiry_banner li a, h2 , h2 span, a.button, input[type="submit"]').each(function() {
+		$('#wrap, .icon_img, .icon_label div, #site_info, #sns_icon li a, .tweet_list li, nav ul, nav ul li, nav ul li a, nav ul.children, nav ul.children li a, .inquiry_banner, .inquiry_banner li a, h2 , h2 span, a.button, .btn_submit input').each(function() {
 			PIE.attach(this);
 		});
 	}
@@ -307,7 +307,7 @@ function anchorWithinAPage(node) {
 
           tweets = $.grep(tweets, s.filter).slice(0, s.count);
           list.append($.map(tweets.sort(s.comparator),
-                            function(t) { return "<li class='clearfix'>" + s.template(t) + "</li>"; }).join('')).
+          function(t) { return "<li class='clearfix'>" + s.template(t) + "</li>"; }).join('')).
               children('li:first').addClass('tweet_first').end().
               children('li:odd').addClass('tweet_even').end().
               children('li:even').addClass('tweet_odd');
