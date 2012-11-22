@@ -70,14 +70,6 @@ function handler1(e){
 	e.preventDefault().attr("href","#");
 }
 
-$(function() {
-    if (window.PIE) {
-        $('.rounded').each(function() {
-            PIE.attach(this);
-        });
-    }
-});
-
 
 
 /* ページトップへ
