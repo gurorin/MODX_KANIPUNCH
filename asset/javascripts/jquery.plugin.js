@@ -410,7 +410,7 @@ jQuery.extend( jQuery.easing,
                            '" height="'+avatar_size+'" width="'+avatar_size+
                            '" alt="'+screen_name+'\'s avatar" title="'+screen_name+'\'s avatar" border="0"/></a>') : '');
             var time = '<span class="tweet_time"><!--<a href="'+tweet_url+'" title="view tweet on twitter">-->'+tweet_relative_time+'<!--</a>--></span>';
-            var text = '<span class="tweet_text">'+$([tweet_text]).makeHeart().capAwesome().capEpic()[0]+ '</span><img src="/wp2/wp-content/themes/kanipunch/images/twitter_triangle.gif" class="triangle" />';
+            var text = '<span class="tweet_text">'+$([tweet_text]).makeHeart().capAwesome().capEpic()[0]+ '</span>';
 
             return { item: item, // For advanced users who want to dig out other info
                      screen_name: screen_name,
