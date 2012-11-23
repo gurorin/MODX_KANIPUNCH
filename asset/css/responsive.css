@@ -312,10 +312,10 @@
 		.company #content article table td {font-size: 0.8em;}
 		
 		/* お問い合わせ */
-		.inquiry #content form    {display: inherit !important;}
-		.inquiry #content form dl {display: inherit !important; margin-bottom: 1em;}
-		.inquiry #content form dt,
-		.inquiry #content form dd {display: inherit !important;width: 100% !important; background-color: #FFF !important; padding: 0;}
+		#content form    {display: inherit !important;}
+		#content form dl {display: inherit !important; margin-bottom: 1em;}
+		#content form dt,
+		#content form dd {display: inherit !important;width: 100% !important; background-color: #FFF !important; padding: 0;}
 		
 	}
 	
@@ -392,9 +392,9 @@
 		.company #content article table td {font-size: 0.8em;}
 		
 		/* お問い合わせ */
-		.inquiry #content form    {display: inherit !important;}
-		.inquiry #content form dl {display: inherit !important; margin-bottom: 1em;}
-		.inquiry #content form dt,
-		.inquiry #content form dd {display: inherit !important;width: 100% !important; background-color: #FFF !important; padding: 0;}
+		#content form    {display: inherit !important;}
+		#content form dl {display: inherit !important; margin-bottom: 1em;}
+		#content form dt,
+		#content form dd {display: inherit !important;width: 100% !important; background-color: #FFF !important; padding: 0;}
 		
 	}
