@@ -94,10 +94,17 @@
 	nav ul li a {font-size: .9em;padding: 10px 15px;}
 	nav ul {min-width: 700px;}
 	#sidebar .widget-container {margin-left: 0px;}
-	#respond textarea {width:auto;}	
 	
-	/* jigoshop styles */
-	header .site-desc.text {font-size: 1.25em;}
+	.inquiry_banner li a  {width: 265px;}
+	
+	
+	
+	.one_half img {width: 270px;}
+	
+	#sidebar aside.free-space li img {width: 180px;}
+	
+	#sns_widget .facebook         {width: 238px;height: 258px;}
+	#sns_widget .facebook .iframe {width: 240px;height: 260px;}
 	
 	}
 	
