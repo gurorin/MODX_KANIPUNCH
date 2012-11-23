@@ -79,25 +79,25 @@ a,a:link,a:visited,a:active {
 /* @group Header
 ================================================== */
 
-header .header_inquiry li a .icon_img {
+header ul li a .icon_img {
 	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#8AD042, #539619);
 }
-header .header_inquiry li a .icon_img span.lsf {
+header ul li a .icon_img span.lsf {
 	color: #FFF;
 }
-header .header_inquiry li a .icon_label span.title {
+header ul li a .icon_label span.title {
 	color: #1D5E00;
 }
-header .header_inquiry li a .icon_label span.number {
+header ul li a .icon_label span.number {
 	color: #666;
 }
-header .header_inquiry li a .icon_label span.opentime {
+header ul li a .icon_label span.opentime {
 	color: #666;
 }
-header .header_inquiry li a .icon_label div {
+header ul li a .icon_label div {
 	background-image: -webkit-linear-gradient(#FFFFFF, #E3E3E3);
 	background-image: -moz-linear-gradient(#FFFFFF, #E3E3E3);
 	background-image: -o-linear-gradient(#FFFFFF, #E3E3E3);

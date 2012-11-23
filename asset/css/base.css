@@ -174,30 +174,25 @@ header .inner {
 	padding-top: 0px;
 	padding-bottom: 20px;
 }
-header .header_extras {
-	position: absolute;
-	left: 350px;
-	top: 25px;
-}
-header .header_inquiry {
+header ul {
 	position: absolute;
 	right: 0px;
 	top: 7px;
 	width: 450px;
 }
-header .header_inquiry li {
+header ul li {
 	float: left;
 	width: 210px;
 	margin-left: 10px;
 }
-header .header_inquiry li a {
+header ul li a {
 	text-decoration: none;
 	cursor: pointer;
 }
-header .header_inquiry li a span {
+header ul li a span {
 	display: block;
 }
-header .header_inquiry li a .icon_img {
+header ul li a .icon_img {
 	float: left;
 	position: relative;
 	width: 1.0em;
@@ -217,7 +212,7 @@ header .header_inquiry li a .icon_img {
 	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#8AD042, #539619);
 }
-header .header_inquiry li a .icon_img span.lsf {
+header ul li a .icon_img span.lsf {
 	position: absolute;
 	text-decoration: none;
 	color: #FFF;
@@ -225,27 +220,27 @@ header .header_inquiry li a .icon_img span.lsf {
 	left: 50%;
 	margin: -16px 0 0 -12px;
 }
-header .header_inquiry li a .icon_label {
+header ul li a .icon_label {
 	float: right;
 	width: 150px;
 }
-header .header_inquiry li a .icon_label span.title {
+header ul li a .icon_label span.title {
 	font-size: 11px;
 	font-weight: bold;
 	line-height: 1.2;
 	color: #1D5E00;
 }
-header .header_inquiry li a .icon_label span.number {
+header ul li a .icon_label span.number {
 	font: bold 24px/26px Helvetica, Arial, sans-serif;
 	line-height: 1.2;
 	color: #666;
 }
-header .header_inquiry li a .icon_label span.opentime {
+header ul li a .icon_label span.opentime {
 	font-size: 9px;
 	line-height: 1.2;
 	color: #666;
 }
-header .header_inquiry li a .icon_label div {
+header ul li a .icon_label div {
 	background-image: -webkit-linear-gradient(white, #E3E3E3);
 	background-image: -moz-linear-gradient(white, #E3E3E3);
 	background-image: -o-linear-gradient(white, #E3E3E3);
@@ -269,40 +264,20 @@ header .header_inquiry li a .icon_label div {
 	text-shadow: 0 1px 0 white;
 	position: relative;
 }
-#site-title {
-	margin: 0;
-	padding: 0;
-	font-size: 60px;
-	line-height: 55px;
-	letter-spacing: -1px;
-}
-header div#site-title a, header h1#site-title, header h1#site-title a {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	font-weight: bold;
-	letter-spacing: -2px;
-	text-shadow: 0px 1px 0px #FFF;
-}
-header #site-title a:hover {
-	color: #3253ad;
-}
-/* Header Tagline */
-header span.site-desc {
+header #site-title,
+header #site-title a {
 	margin: 0;
 	padding: 0;
 }
-/* Image Header */
-header #site-title.graphic a {
-	text-indent: -9999em;
+header #site-title a {
 	display: block;
 	background-image: url(../images/logo.gif);
 	background-repeat: no-repeat;
 	background-position: left;
 	width: 168px;
 	height: 63px;
+	text-indent: -9999em;
 }
-
 /* @end */
 
 

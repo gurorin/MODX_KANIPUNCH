@@ -249,7 +249,7 @@
 		
 		header div.header_extras {left: 10px; top: -10px;font-size: 0.8em;}
 		header #site-title.graphic a {margin-left: 10px;}
-		header .header_inquiry {display: none;}
+		header ul {display: none;}
 		
 		nav {display: none!important;}
 		
@@ -327,7 +327,7 @@
 		
 		header div.header_extras {left: 10px; top: -10px;font-size: 0.8em;}
 		header #site-title.graphic a {margin-left: 10px;}
-		header .header_inquiry {display: none;}
+		header ul {display: none;}
 		
 		nav {display: none!important;}
 		
