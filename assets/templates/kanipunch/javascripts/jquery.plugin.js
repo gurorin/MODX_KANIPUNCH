@@ -267,7 +267,7 @@ jQuery.extend( jQuery.easing,
           returning.push(this.replace(regexp,
                                       function(match) {
                                         var url = (/^[a-z]+:/i).test(match) ? match : "http://"+match;
-                                        return "<a href=../../../../assets/templates/kanipunch/javascripts/""+url+"/">"+match+"</a>";
+                                        return "<a href=\""+url+"\">"+match+"</a>";
                                       }));
         });
         return $(returning);
@@ -403,10 +403,10 @@ jQuery.extend( jQuery.easing,
             var tweet_text = $([tweet_raw_text]).linkUrl().linkUser().linkHash()[0];
 
             // Default spans, and pre-formatted blocks for common layouts
-            var user = '<a class="tweet_user" href="../../../../assets/templates/kanipunch/javascripts/'+user_url+'">'+screen_name+'</a>';
+            var user = '<a class="tweet_user" href="'+user_url+'">'+screen_name+'</a>';
             var join = ((s.join_text) ? ('<span class="tweet_join"> '+join_text+' </span>') : ' ');
             var avatar = (avatar_size ?
-                          ('<a class="tweet_avatar" href="../../../../assets/templates/kanipunch/javascripts/'+user_url+'"><img src="../../../../assets/templates/kanipunch/javascripts/'+avatar_url+
+                          ('<a class="tweet_avatar" href="'+user_url+'"><img src="'+avatar_url+
                            '" height="'+avatar_size+'" width="'+avatar_size+
                            '" alt="'+screen_name+'\'s avatar" title="'+screen_name+'\'s avatar" border="0"/></a>') : '');
             var time = '<span class="tweet_time"><!--<a href="'+tweet_url+'" title="view tweet on twitter">-->'+tweet_relative_time+'<!--</a>--></span>';
