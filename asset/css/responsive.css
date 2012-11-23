@@ -32,15 +32,8 @@
 
 /* Table of Contents
 ==================================================
-	#Site Styles
 	#Page Styles
-	#Media Queries
-	#Font-Face */
-	
-/* #Site Styles
-================================================== */
-
-
+	#Media Queries */
 
 
 
@@ -405,22 +398,3 @@
 		.inquiry #content form .form_style01 dd {display: inherit !important;width: 100% !important; background-color: #FFF !important; padding: 0;}
 		
 	}
-	
-
-/* #Font-Face
-================================================== */
-/* 	This is the proper syntax for an @font-face file 
-		Just create a "fonts" folder at the root, 
-		copy your FontName into code below and remove
-		comment brackets */
-		
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/FontName.eot');
-	    src: url('../fonts/FontName.eot?iefix') format('eot'),
-	         url('../fonts/FontName.woff') format('woff'),
-	         url('../fonts/FontName.ttf') format('truetype'),
-	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/
