@@ -71,10 +71,10 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container                                  { width: 768px; }
         .container .column,
         .container .columns                         { margin-left: 20px; margin-right: 20px;  }
         
+				.container                                  { width: 768px; }/* #containerの横幅 */
         .container .width_a.columns                 { width: 728px; }/* #wrapの横幅 */
 				.container .width_b.columns                 { width: 508px; }/* #contentの横幅 */
 				.container .width_c.columns                 { width: 200px; }/* #sidebarの横幅 */
@@ -87,9 +87,9 @@
     /* Note: Design for a width of 320px */
     
     @media only screen and (max-width: 767px) {
-        .container { width: 300px; }
         .columns, .column { margin: 0; }
 				
+				.container                   { width: 300px; }/* #containerの横幅 */
 				.container .width_a.columns  { width: 280px; }/* #wrapの横幅 */
         .container .width_b.columns  { width: 280px; }/* #contentの横幅 */
 				.container .width_c.columns  { width: 300px; }/* #sidebarの横幅 */
@@ -103,9 +103,9 @@
     /* Note: Design for a width of 480px */
     
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .container { width: 420px; }
         .columns, .column { margin: 0; }
 				
+				.container                  { width: 420px; }/* #containerの横幅 */
 				.container .width_a.columns { width: 420px; }/* #wrapの横幅 */
         .container .width_b.columns { width: 400px; }/* #contentの横幅 */
 				.container .width_c.columns { width: 420px; }/* #sidebarの横幅 */
