@@ -52,16 +52,16 @@ jQuery(document).ready(function() {
 	anchorWithinAPage(".pagetop a");
 	
 	//サイドメニュー制御
-	$(".widget-container ul .menu_item a").click(function(){
+	$(".sidemenu ul li a").click(function(){
 		$(this).next("ul").slideToggle().toggleClass("open");
 		//カテゴリTOPも遷移可能にする
 		if($(this).next("ul").hasClass('open')) {
-			$(".widget-container ul .menu_item:has(ul) > a[href]").unbind("click", handler1);
+			$(".sidemenu ul li:has(ul) > a[href]").unbind("click", handler1);
 		} else {
-			$(".widget-container ul .menu_item:has(ul) > a[href]").bind("click", handler1);
+			$(".sidemenu ul li:has(ul) > a[href]").bind("click", handler1);
     }
 	});
-	$(".widget-container ul .menu_item:has(ul) > a[href]").bind("click", handler1);
+	$(".sidemenu ul li:has(ul) > a[href]").bind("click", handler1);
 });
 
 function handler1(e){

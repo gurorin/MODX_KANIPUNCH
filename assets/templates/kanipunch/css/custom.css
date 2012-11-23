@@ -151,18 +151,18 @@ footer #copyright #footer_menu li {
 /* @group Side Bar
 ================================================== */
 
-#sidebar .widget-container li.menu_item a {
+#sidebar .sidemenu li a {
 	background: url(../images/arrow.png) no-repeat 10px 12px;
 }
-#sidebar .widget-container li.menu_item a:hover {
+#sidebar .sidemenu li a:hover {
 	background: #73C71F url(../images/arrow_on.png) no-repeat 10px 12px;
 	color: #FFF;
 }
-#sidebar .widget-container li.menu_item li a,
-#sidebar .widget-container li.menu_item li a:hover {
+#sidebar .sidemenu li li a,
+#sidebar .sidemenu li li a:hover {
 	color: #666;
 }
-#sidebar .widget-container li.menu_item li a:hover {
+#sidebar .sidemenu li li a:hover {
 	background-color: #f0f0f0;
 }
 /* @end */
@@ -217,7 +217,7 @@ nav ul li a {
 }
 /* Navbar Hover Links */
 
-nav ul li.current a, nav ul li a:hover {
+nav ul li.active a, nav ul li a:hover {
 	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
@@ -228,15 +228,9 @@ nav ul li:hover li a {
 	color: #595959;
 	font-weight: normal;
 }
-/* Navbar Active Links */
-nav ul li.active a {
-	color: #333;
-	background: #FFF;
-	text-shadow: 1px 1px 0px #FFF;
-	border-bottom: 1px solid #FFF;
-}
+
 /* Nav Sublevel */
-nav ul.children {
+nav ul ul {
 	background: -moz-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
@@ -245,15 +239,15 @@ nav ul.children {
 }
 
 /* Nav Sublevel Links */
-nav ul.children li {
+nav ul ul li {
 	border-bottom: 1px solid #fafafa;
 }
-nav ul.children li a {
+nav ul ul li a {
 	background: #f0f0f0;
 	color: #666 !important;
 }
 /* Nav Sublevel Hover */
-nav ul.children li a:hover {
+nav ul ul li a:hover {
 	background: #FFF;
 }
 /* @end */

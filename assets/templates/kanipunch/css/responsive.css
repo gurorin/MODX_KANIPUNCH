@@ -86,7 +86,7 @@
 	nav ul {border-radius:0px;}
 	nav ul li a {font-size: .9em;padding: 10px 15px;}
 	nav ul {min-width: 700px;}
-	#sidebar .widget-container {margin-left: 0px;}
+	#sidebar .sidemenu {margin-left: 0px;}
 	
 	.inquiry_banner li a  {width: 265px;}
 	
@@ -179,7 +179,7 @@
 	}
 	#breadcrumb {display: none;}
 
-	#sidebar .widget-container {margin-left: 0px;}
+	#sidebar .sidemenu {margin-left: 0px;}
 	.full-width,
 	.one_half,
 	.one_third,
