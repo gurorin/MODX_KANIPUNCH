@@ -58,8 +58,8 @@
 /* #Browser
 ================================================== */
 
-    .container                  { width: 1160px; }/* #containerの横幅 */
-    .container .width_a.columns { width: 1100px; }/* #wrapの横幅 */
+    .container                  { width: 1160px; }/* #wrapの横幅 */
+    .container .width_a.columns { width: 1100px; }/* header,footerの横幅 */
     .container .width_b.columns { width:  600px; }/* #contentの横幅 */
     .container .width_c.columns { width:  200px; }/* #sidebarの横幅 */
 
@@ -74,8 +74,8 @@
         .container .column,
         .container .columns         { margin-left: 20px; margin-right: 20px;  }
         
-        .container                  { width: 768px; }/* #containerの横幅 */
-        .container .width_a.columns { width: 728px; }/* #wrapの横幅 */
+        .container                  { width: 768px; }/* #wrapの横幅 */
+        .container .width_a.columns { width: 728px; }/* header,footerの横幅 */
         .container .width_b.columns { width: 508px; }/* #contentの横幅 */
         .container .width_c.columns { width: 200px; }/* #sidebarの横幅 */
     }
@@ -89,8 +89,8 @@
     @media only screen and (max-width: 767px) {
         .columns, .column { margin: 0; }
         
-        .container                  { width: 300px; }/* #containerの横幅 */
-        .container .width_a.columns { width: 280px; }/* #wrapの横幅 */
+        .container                  { width: 300px; }/* #wrapの横幅 */
+        .container .width_a.columns { width: 280px; }/* header,footerの横幅 */
         .container .width_b.columns { width: 280px; }/* #contentの横幅 */
         .container .width_c.columns { width: 300px; }/* #sidebarの横幅 */
         
@@ -105,8 +105,8 @@
     @media only screen and (min-width: 480px) and (max-width: 767px) {
         .columns, .column { margin: 0; }
         
-        .container                  { width: 420px; }/* #containerの横幅 */
-        .container .width_a.columns { width: 420px; }/* #wrapの横幅 */
+        .container                  { width: 420px; }/* #wrapの横幅 */
+        .container .width_a.columns { width: 420px; }/* header,footerの横幅 */
         .container .width_b.columns { width: 400px; }/* #contentの横幅 */
         .container .width_c.columns { width: 420px; }/* #sidebarの横幅 */
     }
