@@ -204,8 +204,6 @@
 	/* iPad Portrait Only */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		
-		header div.header_extras {left: 0px; top: -10px;font-size: 0.8em;}
-		
 		.inquiry_banner         {width: 488px;}
 		.inquiry_banner p       {width: 488px !important; margin: 5px 0 !important;}
 		.inquiry_banner li a    {width: 219px;height: 5em;}
@@ -247,9 +245,8 @@
 	/* Mobile Only */
 	@media only screen and (max-width: 767px) {
 		
-		header div.header_extras {left: 10px; top: -10px;font-size: 0.8em;}
-		header #site-title.graphic a {margin-left: 10px;}
-		header ul {display: none;}
+		header #site-title a {margin-left: 10px;}
+		header ul {display: none!important;;}
 		
 		nav {display: none!important;}
 		
@@ -325,9 +322,8 @@
 	/* Mobile Landscape Only */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		
-		header div.header_extras {left: 10px; top: -10px;font-size: 0.8em;}
-		header #site-title.graphic a {margin-left: 10px;}
-		header ul {display: none;}
+		header #site-title a {margin-left: 10px;}
+		header ul {display: none!important;;}
 		
 		nav {display: none!important;}
 		

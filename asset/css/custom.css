@@ -105,15 +105,7 @@ header ul li a .icon_label div {
 	-pie-background: linear-gradient(#FFFFFF, #e3e3e3);
 	color: #333;
 }
-
-/* Header Tagline */
-header span.site-desc {
-	color: #666;
-	display: none;
-}
-
-/* Image Header */
-header #site-title.graphic a {
+header #site-title a {
 	width: 168px;
 	height: 63px;
 }
