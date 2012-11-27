@@ -428,7 +428,7 @@ footer p.status {
 	text-decoration: none;
 }
 #sidebar .sidemenu li a:hover,
-#sidebar .sidemenu li.current a {
+#sidebar .sidemenu li.active a {
 	background: #73C71F url(../images/arrow_on.png) no-repeat 10px 12px;
 	color: #FFF;
 }
