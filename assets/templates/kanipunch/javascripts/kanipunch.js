@@ -55,11 +55,13 @@ jQuery(document).ready(function() {
 	$(".sidemenu ul li a").click(function(){
 		$(this).next("ul").slideToggle().toggleClass("open");
 		//カテゴリTOPも遷移可能にする
+		/*
 		if($(this).next("ul").hasClass('open')) {
 			$(".sidemenu ul li:has(ul) > a[href]").unbind("click", handler1);
 		} else {
 			$(".sidemenu ul li:has(ul) > a[href]").bind("click", handler1);
     }
+		*/
 	});
 	$(".sidemenu ul li:has(ul) > a[href]").bind("click", handler1);
 });
