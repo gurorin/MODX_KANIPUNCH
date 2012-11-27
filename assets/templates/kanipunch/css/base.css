@@ -427,7 +427,8 @@ footer p.status {
 	border-top: 1px solid #eee;
 	text-decoration: none;
 }
-#sidebar .sidemenu li a:hover {
+#sidebar .sidemenu li a:hover,
+#sidebar .sidemenu li.current a {
 	background: #73C71F url(../images/arrow_on.png) no-repeat 10px 12px;
 	color: #FFF;
 }
