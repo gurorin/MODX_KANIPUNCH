@@ -1,6 +1,9 @@
 <!doctype html>
 <html dir="ltr" lang="ja">
 <head>
+<!-- #modx
+<base href="[(site_url)]" />
+--><!-- /#modx -->
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>SAMPLE SITE</title>
@@ -28,10 +31,14 @@
 	<!-- Header -->
 	<header class="width_a columns">
 		<div class="inner">
+<!-- #modx
+			<h1 id="site-title"><a href="[(site_url)]">[(site_name)]</a></h1>
+-->
 			<h1 id="site-title"><a href="./index.html">MODX</a></h1>
+<!-- /#modx -->
 			<ul class="clearfix">
 				<li><a href="tel:0123456789"><span class="icon_img"><span class="lsf">&#xe100;</span></span><span class="icon_label"><span class="title">お電話でのご相談</span><span class="number">0120-345-678</span><span class="opentime">受付時間：月～金　9:00～18:00</span></span></a></li>
-				<li><a href="./inquiry/"><span class="icon_img"><span class="lsf">&#xe08a;</span></span><span class="icon_label"><span class="title">メールでのご相談</span><div>お問い合わせフォーム</div></span></a></li>
+				<li><a href="[~3~]"><span class="icon_img"><span class="lsf">&#xe08a;</span></span><span class="icon_label"><span class="title">メールでのご相談</span><div>お問い合わせフォーム</div></span></a></li>
 			</ul>
 		</div>
 	</header>
@@ -40,6 +47,9 @@
 	<!--Navigation-->
 	<nav class="row width_a columns">
 		<div class="menu">
+<!-- #modx
+[[Wayfinder?startId=0&level=2]]
+-->
 			<ul>
 				<li class="active"><a href="./index.html">HOME</a></li>
 				<li><a href="./company/">企業情報</a>
@@ -62,8 +72,9 @@
 						<li><a href="./product/">製品情報02</a></li>
 					</ul>
 				</li>
-				<li><a href="./inquiry/">お問い合わせ</a></li>
+				<li><a href="[~3~]">お問い合わせ</a></li>
 			</ul>
+<!-- /#modx -->
 		</div>
 	</nav>
 	<!--/Navigation--> 
@@ -75,6 +86,9 @@
 	<!-- Sidebar -->
 	<div id="sidebar" class="width_c columns">
 		<div class="sidemenu">
+<!-- #modx
+[[Wayfinder?startId=0&level=2]]
+-->
 			<ul>
 				<li class="active"><a href="./index.html">HOME</a></li>
 				<li><a href="./company/">企業情報</a>
@@ -97,8 +111,9 @@
 						<li><a href="./product/">製品情報02</a></li>
 					</ul>
 				</li>
-				<li><a href="./inquiry/">お問い合わせ</a></li>
+				<li><a href="[~3~]">お問い合わせ</a></li>
 			</ul>
+<!-- /#modx -->
 		</div>
 		<aside class="banner clearfix">
 			<ul>
@@ -118,6 +133,14 @@
 		<!-- Article -->
 		<div class="entry">
 			<div class="entry-content">
+<!-- #modx
+				<article>
+					<h2><span>[*pagetitle*]</span></h2>
+					<div class="inner_box">
+					[*content*]
+					</div>
+				</article>
+-->
 				<article>
 					<h2><span>マルチデバイス対応のレスポンシブデザインで、カスタマイズしやすい！</span></h2>
 					<div class="inner_box">
@@ -161,6 +184,7 @@
 						</ul>
 					</div>
 				</article>
+<!-- /#modx -->
 			</div>
 		</div>
 		<!-- /Article --> 
@@ -173,18 +197,22 @@
 			</div>
 			<ul class="clearfix">
 				<li id="inquiry_tel"><a href="tel:0123456789" class="clearfix"><span class="icon_img"><span class="lsf">&#xe100;</span></span><span class="icon_label"><span class="title">お電話でのご相談</span><span class="number">0120-345-678</span><span class="opentime">受付時間：月～金　9:00～18:00</span></span></a></li>
-				<li id="inquiry_mail"><a href="./inquiry/" class="clearfix"><span class="icon_img"><span class="lsf">&#xe08a;</span></span><span class="icon_label"> <span class="title">メールでのご相談</span><div>お問い合わせフォーム</div></span></a></li>
+				<li id="inquiry_mail"><a href="[~3~]" class="clearfix"><span class="icon_img"><span class="lsf">&#xe08a;</span></span><span class="icon_label"> <span class="title">メールでのご相談</span><div>お問い合わせフォーム</div></span></a></li>
 			</ul>
 		</div>
 		<!-- /Inquiry --> 
 		
 		<!-- BreadCrumb -->
 		<section class="breadcrumb clearfix">
+<!-- #modx
+[[TopicPath?theme=list]]
+-->
 			<ul class="clearfix">
 				<li><a href="./">HOME</a></li>
 				<li><a href="#">カテゴリー</a></li>
 				<li>詳細ページ</li>
 			</ul>
+<!-- /#modx -->
 			<div class="pagetop"><a href="#PageTop">PAGE TOP</a></div>
 		</section>
 		<!-- /BreadCrumb --> 
@@ -210,8 +238,8 @@
 		</section>
 		<aside class="free-space clearfix">
 			<ul>
-				<li class="clearfix"><img src="assets/templates/kanipunch/images/free-space_sample2-2.jpg" alt="公式ドキュメント"><div><strong>公式ドキュメント</strong><span>400以上のページや週刊成長と、MODxのドキュメントには、それがために使用されるものでない。オープンソースプロジェクトでは、ドキュメントを真剣に考えて取得したときに何が起こるかを参照してください。</span></div></li>
-				<li class="clearfix"> <img src="assets/templates/kanipunch/images/free-space_sample2-3.jpg" alt="MODXソリューション"><div><strong>MODXソリューション</strong><span>MODxのサイトのショーケースで作られたが、どれだけ柔軟MODXが本当にで単なる覗き見を提供しています。私たちのソリューションプロファイルはMODxのユーザーとそのプロジェクトのプロセスと解析および紹介にあなたの洞察力を与える。</span></div></li>
+				<li class="clearfix"><img src="assets/templates/kanipunch/images/free-space_sample2-2.jpg" alt="公式ドキュメント"><div><strong>公式ドキュメント</strong><span>400以上のページや週刊成長と、MODXのドキュメントには、それがために使用されるものでない。オープンソースプロジェクトでは、ドキュメントを真剣に考えて取得したときに何が起こるかを参照してください。</span></div></li>
+				<li class="clearfix"> <img src="assets/templates/kanipunch/images/free-space_sample2-3.jpg" alt="MODXソリューション"><div><strong>MODXソリューション</strong><span>MODXのサイトのショーケースで作られたが、どれだけ柔軟MODXが本当にで単なる覗き見を提供しています。私たちのソリューションプロファイルはMODXのユーザーとそのプロジェクトのプロセスと解析および紹介にあなたの洞察力を与える。</span></div></li>
 			</ul>
 		</aside>
 		<aside class="banner clearfix">
@@ -242,15 +270,15 @@
 		<div id="copyright" class="clearfix">
 			<div class="clearfix width_a columns">
 				<address>
-				Copyright&copy;2012 SAMPLE SITE All Rights Reserved.
+				Copyright&copy;2012 [(site_name)] All Rights Reserved.
 				</address>
 				<ul id="footer_menu" class="clearfix">
 					<li><a href="#">プライバシーポリシー</a></li>
 					<li><a href="#">サイトマップ</a></li>
-					<li><a href="./inquiry/">お問い合わせ</a></li>
+					<li><a href="[~3~]">お問い合わせ</a></li>
 				</ul>
 			</div>
-			<p class="status width_a columns">Mem : 57.45 KB, MySQL: 0s, 0 request(s), PHP: 0.0004 s, total: 0.0004 s, document retrieved from bypass_cache.</p>
+			<p class="status width_a columns">Mem : [^m^] KB, MySQL: [^qt^], [^q^] request(s), PHP: [^p^], total: [^t^], include [^f^]files, document retrieved from [^s^].</p>
 			<script type="text/javascript" src="assets/templates/kanipunch/javascripts/jquery.formalize.min.js"></script>
 		</div>
 		<script type="text/javascript" src="assets/templates/kanipunch/javascripts/jquery.formalize.min.js"></script> 
