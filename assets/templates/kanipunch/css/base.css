@@ -210,6 +210,8 @@ header ul li a .icon_label span.number {
 	line-height: 1.2;
 	color: #666;
 }
+header ul li a .icon_label span.number:not(:target){font-size:20px\9;}/* IE9/10 hack */
+
 header ul li a .icon_label span.opentime {
 	font-size: 9px;
 	line-height: 1.2;
@@ -219,6 +221,7 @@ header ul li a .icon_label div {
 	background-image: -webkit-linear-gradient(white, #E3E3E3);
 	background-image: -moz-linear-gradient(white, #E3E3E3);
 	background-image: -o-linear-gradient(white, #E3E3E3);
+	background-image: -ms-linear-gradient(white, #E3E3E3);
 	background-image: linear-gradient(white, #E3E3E3);
 	-pie-background: linear-gradient(#FFFFFF, #e3e3e3);
 	border: 1px solid #DBDBDB;
@@ -274,6 +277,7 @@ footer #site_info {
 	background: -moz-linear-gradient(270deg, #F0F0F0, #DDD) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #F0F0F0, #DDD) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #F0F0F0, #DDD) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #F0F0F0, #DDD) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#F0F0F0, #DDD);
 	padding: 15px 0 15px 0;
 }
@@ -587,6 +591,7 @@ nav ul {
 	background: -moz-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#519300, #236400);
 	border-color: #236400 #236400 #236400 #236400;
 	-moz-border-radius: 5px 5px 5px 5px;
@@ -611,6 +616,7 @@ nav ul li a {
 	background: -moz-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#519300, #236400);
 	padding: 15px 25px;
 	text-decoration: none !important;
@@ -627,6 +633,7 @@ nav ul li.active a, nav ul li a:hover {
 	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#8AD042, #539619);
   position: relative;
 }
@@ -640,6 +647,7 @@ nav ul ul {
 	background: -moz-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#FCFCFC, #ECECEC);
 	border-color: #EAEAEA #F5F5F5 #F5F5F5 #F5F5F5;
 	-moz-border-radius: 0px 0px 5px 5px;
@@ -766,6 +774,7 @@ article .news li a:hover strong {
 	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#8AD042, #539619);
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
@@ -815,6 +824,8 @@ article .news li a:hover strong {
 	letter-spacing: -1px;
 	margin-bottom: 5px;
 }
+.inquiry_banner li a .icon_label span.number:not(:target){font-size:24px\9;}/* IE9/10 hack */
+
 .inquiry_banner li a .icon_label span.opentime {
 	font-size: 11px;
 	line-height: 1.2;

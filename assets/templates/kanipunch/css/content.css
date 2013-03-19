@@ -65,6 +65,7 @@ h2 {
 	background: -moz-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #519300, #236400) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#519300, #236400);
 	border-color: #EAEAEA #EAEAEA whiteSmoke #CCC;
 	border-style: solid;
@@ -81,6 +82,7 @@ h2 span {
 	background: -moz-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	background: -o-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
+	background: -ms-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
 	-pie-background: linear-gradient(#FCFCFC, #ECECEC);
 	padding: 8px 10px 6px 10px;
 	position: relative;

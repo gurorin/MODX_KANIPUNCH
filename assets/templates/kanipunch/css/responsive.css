@@ -207,8 +207,8 @@
 		.inquiry_banner         {width: 488px;}
 		.inquiry_banner p       {width: 488px !important; margin: 5px 0 !important;}
 		.inquiry_banner li a    {width: 219px;height: 5em;}
-		.inquiry_banner li a .icon_img {font-size: 30px!important;}
-		.inquiry_banner li a .icon_img span {margin: -14px 0 0 -12px!important;}
+		.inquiry_banner li a .icon_img {margin-right: 10px!important;}
+		.inquiry_banner li a .icon_img img{width: 50px!important;}
 		.inquiry_banner li a .icon_label {width:158px!important;}
 		.inquiry_banner li a .icon_label span {margin-bottom: 3px!important;}
 		.inquiry_banner li a .icon_label span.title {font-size: 12px!important;}
@@ -255,8 +255,8 @@
 		.inquiry_banner         {width: 260px;}
 		.inquiry_banner p       {width: 260px !important; margin: 5px 0 !important;}
 		.inquiry_banner li a    {width: 240px;}
-		.inquiry_banner li a .icon_img {font-size: 30px!important;}
-		.inquiry_banner li a .icon_img span {margin: -14px 0 0 -12px!important;}
+		.inquiry_banner li a .icon_img {margin-right: 10px!important;}
+		.inquiry_banner li a .icon_img img{width: 55px!important;}
 		.inquiry_banner li a .icon_label span {margin-bottom: 3px!important;}
 		.inquiry_banner li a .icon_label span.title {font-size: 12px!important;}
 		.inquiry_banner li#inquiry_tel {margin-bottom: 10px;}
@@ -332,8 +332,8 @@
 		.inquiry_banner         {width: 380px;}
 		.inquiry_banner p       {width: 380px !important; margin: 5px 0 !important;}
 		.inquiry_banner li a    {width: 165px;height: 5em;}
-		.inquiry_banner li a .icon_img {font-size: 30px!important;}
-		.inquiry_banner li a .icon_img span {margin: -14px 0 0 -12px!important;}
+		.inquiry_banner li a .icon_img {margin-right: 10px!important;}
+		.inquiry_banner li a .icon_img img{width: 50px!important;}
 		.inquiry_banner li a .icon_label {width:105px!important;margin-right: 0px;}
 		.inquiry_banner li a .icon_label span {margin-bottom: 3px!important;}
 		.inquiry_banner li a .icon_label span.title {font-size: 11px!important;}
