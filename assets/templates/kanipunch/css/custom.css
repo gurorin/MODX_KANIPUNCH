@@ -79,12 +79,6 @@ a,a:link,a:visited,a:active {
 /* @group Header
 ================================================== */
 
-header ul li a .icon_img {
-	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	-pie-background: linear-gradient(#8AD042, #539619);
-}
 header ul li a .icon_img span.lsf {
 	color: #FFF;
 }
@@ -127,15 +121,6 @@ footer #site_info {
 }
 footer #site_info dl dd a {
 	color: #666;
-}
-footer #site_info #sns_icon li a {
-	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	-pie-background: linear-gradient(#8AD042, #539619);
-}
-footer #site_info #sns_icon li a span {
-	color: #FFF;
 }
 footer #copyright {
 	color: #999;
@@ -289,12 +274,6 @@ article .news li a:hover strong {
 }
 .inquiry_banner li a {
 	background-color: #FFF;
-}
-.inquiry_banner li a .icon_img {
-	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	-pie-background: linear-gradient(#8AD042, #539619);
 }
 .inquiry_banner li a .icon_img span.lsf {
 	color: #FFF;

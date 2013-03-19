@@ -194,31 +194,6 @@ header ul li a span {
 }
 header ul li a .icon_img {
 	float: left;
-	position: relative;
-	width: 1.0em;
-	height: 1.05em;
-	font-size: 30px;
-	line-height: 1.0;
-	margin-right: 5px;
-	padding: 10px;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 0px;
-	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	-pie-background: linear-gradient(#8AD042, #539619);
-}
-header ul li a .icon_img span.lsf {
-	position: absolute;
-	text-decoration: none;
-	color: #FFF;
-	top: 50%;
-	left: 50%;
-	margin: -16px 0 0 -12px;
 }
 header ul li a .icon_label {
 	float: right;
@@ -321,33 +296,6 @@ footer #site_info #sns_icon {
 footer #site_info #sns_icon li {
 	float: left;
 	margin-left: 10px;
-}
-footer #site_info #sns_icon li a {
-	display: block;
-	position: relative;
-	width: 1.0em;
-	height: 1.05em;
-	font-size: 24px;
-	line-height: 1.0;
-	padding: 5px;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 0px;
-	/*background-color: #84C93A;*/
-	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	-pie-background: linear-gradient(#8AD042, #539619);
-}
-footer #site_info #sns_icon li a span {
-	position: absolute;
-	text-decoration: none;
-	color: #FFF;
-	top: 50%;
-	left: 50%;
-	margin: -13px 0 0 -8px;
 }
 footer #site_info #sns_icon li a:hover {
 	opacity: 0.7;
@@ -846,31 +794,7 @@ article .news li a:hover strong {
 }
 .inquiry_banner li a .icon_img {
 	float: left;
-	position: relative;
-	width: 1.0em;
-	height: 1.05em;
-	font-size: 60px;
-	line-height: 1.0;
-	margin-right: 10px;
-	padding: 10px;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 0px;
-	background: -moz-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	background: -o-linear-gradient(270deg, #8AD042, #539619) repeat scroll 0 0 transparent;
-	-pie-background: linear-gradient(#8AD042, #539619);
-}
-.inquiry_banner li a .icon_img span.lsf {
-	position: absolute;
-	text-decoration: none;
-	color: #FFF;
-	top: 50%;
-	left: 50%;
-	margin: -30px 0 0 -22px;
+	margin-right: 15px;
 }
 .inquiry_banner li a .icon_label {
 	float: right;
@@ -882,14 +806,14 @@ article .news li a:hover strong {
 	font-weight: bold;
 	line-height: 1.2;
 	color: #226400;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 .inquiry_banner li a .icon_label span.number {
 	font: bold 29px/31px Helvetica, Arial, sans-serif;
 	line-height: 1.2;
 	color: #666;
 	letter-spacing: -1px;
-	margin-bottom: 7px;
+	margin-bottom: 5px;
 }
 .inquiry_banner li a .icon_label span.opentime {
 	font-size: 11px;
