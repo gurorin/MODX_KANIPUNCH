@@ -143,7 +143,7 @@ jQuery(document).ready(function() {
 		$(this).next("ul").slideToggle().toggleClass("open");
 		//カテゴリTOPも遷移可能にする
 		if($(this).next("ul").hasClass('open')) {
-			$(this).next("ul li a").unbind("click", handler1);
+			$(".sidemenu ul li:has(ul) > a[href]").unbind("click", handler1);
 			$(".sidemenu ul li:has(ul) > a").css('background-image','url(' + rootPath + 'assets/templates/kanipunch/images/arrow.png)');
 		} else {
 			$(".sidemenu ul li:has(ul) > a[href]").bind("click", handler1);
